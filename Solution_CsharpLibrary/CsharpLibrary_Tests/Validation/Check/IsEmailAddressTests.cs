@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
 
-namespace CsharpLibrary_Tests.RegularExpressions.Patterns
+namespace CsharpLibrary_Tests.Validation.Check
 {
     [TestFixture]
-    public class EmailAddressTests
+    public class IsEmailAddressTests
     {
         // Example email addresses from https://blogs.msdn.microsoft.com/testing123/2009/02/06/email-address-test-cases/
 
