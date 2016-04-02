@@ -12,10 +12,7 @@ namespace CsharpLibrary.Validation
             if (emailAddress.Contains(".."))
                 return false;
 
-            if (Regex.IsMatch(emailAddress, RegularExpressions.Patterns.EmailAddress))
-                return true;
-
-            return Regex.IsMatch(emailAddress, RegularExpressions.Patterns.EmailAddressWithIP);
+            return Regex.IsMatch(emailAddress, RegularExpressions.Patterns.EmailAddress);
         }
     }
 }
