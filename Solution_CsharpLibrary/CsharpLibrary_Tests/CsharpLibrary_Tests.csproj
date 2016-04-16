@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="ExtensionMethods\IntExtensions\IsEvenTests.cs" />
     <Compile Include="ExtensionMethods\IntExtensions\IsOddTests.cs" />
+    <Compile Include="ExtensionMethods\IntExtensions\ToRomanNumeralsTests.cs" />
     <Compile Include="ExtensionMethods\StringExtensions\ToCsvFriendlyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validation\Check\IsEmailAddressTests.cs" />
