@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+using CsharpLibrary.RegularExpressions;
 
 namespace CsharpLibrary.Validation
 {
@@ -12,7 +13,15 @@ namespace CsharpLibrary.Validation
             if (emailAddress.Contains(".."))
                 return false;
 
-            return Regex.IsMatch(emailAddress, RegularExpressions.Patterns.EmailAddress);
+            return Regex.IsMatch(emailAddress, Patterns.EmailAddress);
+        }
+
+        public static bool IsHexValue(string hexValue)
+        {
+            if (string.IsNullOrWhiteSpace(hexValue))
+                return false;
+
+            return Regex.IsMatch(hexValue, Patterns.HexValue);
         }
     }
 }

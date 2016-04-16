@@ -68,6 +68,7 @@
     <Compile Include="ExtensionMethods\StringExtensions\ToCsvFriendlyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validation\Check\IsEmailAddressTests.cs" />
+    <Compile Include="Validation\Check\IsHexValueTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
