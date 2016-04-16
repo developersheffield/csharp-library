@@ -72,5 +72,10 @@ namespace CsharpLibrary.ExtensionMethods
 
             return result.ToString();
         }
+
+        public static int Negate(this int integer)
+        {
+            return integer * -1;
+        }
     }
 }
