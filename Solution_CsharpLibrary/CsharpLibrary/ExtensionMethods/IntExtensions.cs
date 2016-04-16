@@ -16,6 +16,31 @@ namespace CsharpLibrary.ExtensionMethods
             return integer % 2 == 0;
         }
 
+        public static string Ordinal(this int integer)
+        {
+            // Less than 1 has no ordinal
+            if (integer < 1)
+                return string.Empty;
+
+            // Check if last 2 digits are 11, 12 or 13
+            switch (integer % 100)
+            {
+                case 11:
+                case 12:
+                case 13:
+                    return "th";
+            }
+
+            // Check the last digit
+            switch (integer % 10)
+            {
+                case 1: return "st";
+                case 2: return "nd";
+                case 3: return "rd";
+                default: return "th";
+            }
+        }
+
         public static string ToRomanNumerals(this int integer)
         {
             var result = new StringBuilder();
