@@ -234,3 +234,7 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+/Solution_CsharpLibrary/CsharpLibrary_WebTests/Scripts/jquery-2.2.3.intellisense.js
+/Solution_CsharpLibrary/CsharpLibrary_WebTests/Scripts/jquery-2.2.3.js
+/Solution_CsharpLibrary/CsharpLibrary_WebTests/Scripts/jquery-2.2.3.min.js
+/Solution_CsharpLibrary/CsharpLibrary_WebTests/Scripts/jquery-2.2.3.min.map

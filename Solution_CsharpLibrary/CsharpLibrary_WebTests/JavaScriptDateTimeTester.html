@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-2.2.3.js"></script>
+</head>
+<body>
+    <h1>DateTime to milliseconds</h1>
+    <form>
+        <div>
+            <label>Year</label>
+            <input type="text" id="txtYear"/>
+        </div>
+        <div>
+            <label>Month</label>
+            <input type="text" id="txtMonth" />
+        </div>
+        <div>
+            <label>Day</label>
+            <input type="text" id="txtDay" />
+        </div>
+        <div>
+            <label>Hours</label>
+            <input type="text" id="txtHours" />
+        </div>
+        <div>
+            <label>Minutes</label>
+            <input type="text" id="txtMinutes" />
+        </div>
+        <div>
+            <label>Seconds</label>
+            <input type="text" id="txtSeconds" />
+        </div>
+    </form>
+    <button id="btnSubmit">Submit</button>
+    <div id="result"></div>
+    <script>
+        $(function () {
+            $('#btnSubmit').click(() => {
+                var date = new Date(getNumber('txtYear'), getNumber('txtMonth') - 1, getNumber('txtDay'), getNumber('txtHours'), getNumber('txtMinutes'), getNumber('txtSeconds'));
+                $('#result').html(date.getTime());
+            });
+        });
+
+        function getNumber(id) {
+            return Number($('#' + id).val());
+        }
+    </script>
+</body>
+</html>

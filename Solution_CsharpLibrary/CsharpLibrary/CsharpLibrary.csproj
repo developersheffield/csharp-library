@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtensionMethods\DateTimeExtensions.cs" />
     <Compile Include="ExtensionMethods\IntExtensions.cs" />
     <Compile Include="ExtensionMethods\RepeaterItemEventArgsExtensions.cs" />
     <Compile Include="ExtensionMethods\StringExtensions.cs" />

@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtensionMethods\DateTimeExtensions\ToJavaScriptMillisecondsTests.cs" />
     <Compile Include="ExtensionMethods\IntExtensions\IsEvenTests.cs" />
     <Compile Include="ExtensionMethods\IntExtensions\IsOddTests.cs" />
     <Compile Include="ExtensionMethods\IntExtensions\NegateTests.cs" />
