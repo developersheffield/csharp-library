@@ -22,5 +22,42 @@ namespace CsharpLibrary.ExtensionMethods
         {
             return text.Split(new[] { splitBy }, StringSplitOptions.RemoveEmptyEntries);
         }
+
+        public static string AfterFirstInstanceOf(this string text, string marker)
+        {
+            return text.IndexOf(marker, StringComparison.Ordinal) == -1 
+                ? text 
+                : text.Substring(text.IndexOf(marker, StringComparison.Ordinal) + marker.Length);
+        }
+
+        public static string MaxLength(this string text, int maxLength, string suffix = "")
+        {
+            return text.Length > maxLength ? text.Substring(0, maxLength) + suffix : text;
+        }
+
+        public static string Abbreviate(this string text, int numberOfWords, string suffix = "")
+        {
+            int words = numberOfWords;
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] == ' ')
+                {
+                    words--;
+                }
+
+                if (words == 0)
+                {
+                    return text.Substring(0, i) + suffix;
+                }
+
+                if (i == text.Length - 1)
+                {
+                    return text;
+                }
+            }
+
+            return text;
+        }
     }
 }
