@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ExtensionMethods\DateTimeExtensions.cs" />
     <Compile Include="ExtensionMethods\IntExtensions.cs" />
+    <Compile Include="ExtensionMethods\ListExtensions.cs" />
     <Compile Include="ExtensionMethods\RepeaterItemEventArgsExtensions.cs" />
     <Compile Include="ExtensionMethods\StringExtensions.cs" />
     <Compile Include="Format\Numeric.cs" />
