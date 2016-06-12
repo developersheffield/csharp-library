@@ -48,7 +48,9 @@
     <Compile Include="ExtensionMethods\StringBuilderExtensions.cs" />
     <Compile Include="ExtensionMethods\StringExtensions.cs" />
     <Compile Include="Format\Numeric.cs" />
+    <Compile Include="GlobalAsaxSample.cs" />
     <Compile Include="Html\Character.cs" />
+    <Compile Include="HttpModules\RemoveServerResponseHeader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegularExpressions\Patterns.cs" />
     <Compile Include="StringManipulation\AdvancedSplit.cs" />

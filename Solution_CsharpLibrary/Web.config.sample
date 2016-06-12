@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.webServer>
+    <modules>
+      <!-- HttpModule to remove Server response header -->
+      <remove name="RemoveServerResponseHeaderModule" />
+      <add name="RemoveServerResponseHeaderModule" type="MvcApplication.HttpModules.RemoveServerResponseHeader"/>
+    </modules>
+    <httpProtocol>
+      <customHeaders>
+        <!-- Remove the X-Powered-By response header-->
+        <remove name="X-Powered-By" />
+      </customHeaders>
+    </httpProtocol>
+  </system.webServer>
+</configuration>
