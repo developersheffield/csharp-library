@@ -13,7 +13,7 @@
                 return text;
 
             // Replace quotes with double quotes to escape quotes and wrap all text in quotes to avoid comma's breaking the text
-            return string.Format("\"{0}\"", text.Replace("\"", "\"\""));
+            return $"\"{text.Replace("\"", "\"\"")}\"";
         }
     }
 }
