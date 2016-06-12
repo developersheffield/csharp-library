@@ -1,4 +1,6 @@
-﻿namespace CsharpLibrary.ExtensionMethods
+﻿using System;
+
+namespace CsharpLibrary.ExtensionMethods
 {
     public static class StringExtensions
     {
@@ -14,6 +16,11 @@
 
             // Replace quotes with double quotes to escape quotes and wrap all text in quotes to avoid comma's breaking the text
             return $"\"{text.Replace("\"", "\"\"")}\"";
+        }
+
+        public static string[] SplitByString(this string text, string splitBy)
+        {
+            return text.Split(new[] { splitBy }, StringSplitOptions.RemoveEmptyEntries);
         }
     }
 }
