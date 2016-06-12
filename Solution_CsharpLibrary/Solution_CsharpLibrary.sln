@@ -29,6 +29,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CsharpLibrary_WebTests", "C
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{A28BCA36-A41F-4519-B3DD-387A38ED83BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A28BCA36-A41F-4519-B3DD-387A38ED83BE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{A28BCA36-A41F-4519-B3DD-387A38ED83BE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
