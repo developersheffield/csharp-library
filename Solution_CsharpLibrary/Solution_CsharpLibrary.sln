@@ -31,6 +31,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CsharpLibrary_WebTests", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{BB36FB25-AB50-4539-B4A5-733FE9E0A9D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Tests", "WebApplication.Tests\WebApplication.Tests.csproj", "{17BE12F1-9108-4380-A5B9-18F7B1CFD239}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83C72C5C-ADB6-4943-A3FA-4B52CF072ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB36FB25-AB50-4539-B4A5-733FE9E0A9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB36FB25-AB50-4539-B4A5-733FE9E0A9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB36FB25-AB50-4539-B4A5-733FE9E0A9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB36FB25-AB50-4539-B4A5-733FE9E0A9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BE12F1-9108-4380-A5B9-18F7B1CFD239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BE12F1-9108-4380-A5B9-18F7B1CFD239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BE12F1-9108-4380-A5B9-18F7B1CFD239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BE12F1-9108-4380-A5B9-18F7B1CFD239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
