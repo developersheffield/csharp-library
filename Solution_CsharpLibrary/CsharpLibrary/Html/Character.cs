@@ -23,6 +23,6 @@
         public const string LeftDoubleQuote = "&ldquo;"; // " (left)
         public const string RightDoubleQuote = "&rdquo;"; // " (right)
         public const string LeftSingleQuote = "&lsquo;"; // ' (left)
-        public const string RightSingleQuote = "&rsquo;"; // ' (right)
+        public const string RightSingleQuote = "&rsquo;"; // ' (right) or apostrophe
     }
 }
